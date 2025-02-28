@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/scripts.js"></script>
+    
     <title>BK GENIO</title>
 </head>
 
@@ -15,7 +15,8 @@
             <ul class="nav-list">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="discografia.html">Discografia</a></li>
-                <li><a href="index.html#Direitos">Direitos</a></li>
+                <li><a href="#Curiosadades">Curiosidades</a></li>
+                <li><a href="#Direitos">Direitos</a></li>
             </ul>
         </nav>
     </header>
@@ -28,6 +29,7 @@
                 <img class="card" src="images/alb3.jpg" alt="foto album" onclick="playMusic('musicas/music3.mp3')">
                 <img class="card" src="images/alb4.jpg" alt="foto album" onclick="playMusic('musicas/music4.mp3')">
                 <img class="card" src="images/alb5.jpg" alt="foto album" onclick="playMusic('musicas/music5.mp3')">
+                <img class="card" src="images/alb6.jpg" alt="foto album" onclick="playMusic('musicas/music6.mp3')">
             </header>
         </aside>
 
@@ -77,7 +79,7 @@
             </article>
         </section>
 
-        <section class="card-container">
+        <section class="card-container" id="Curiosadades">
             <article class="card"
                 onclick="abrir('images/img1.jpg', 'O rapper BK recebeu o nome Abebe Bikila em homenagem ao lendário maratonista etíope, vencedor da maratona olímpica de 1960 em Roma, correndo descalço. Nomeado por sua mãe, a escolha reflete a admiração por Bikila como símbolo de superação e pioneirismo. Essa conexão é carregada por BK não apenas como uma identidade artística, mas como uma inspiração em sua jornada de autenticidade e conquista no rap.')">
                 <img src="images/img1.jpg" alt="Card não carregado">
@@ -116,11 +118,12 @@
     </main>
 
     <footer>
-        <div class="footer-copy" id="direitos">
+        <div class="footer-copy" id="Direitos">
             <p>Todos os direitos reservados para BK</p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
